@@ -1,9 +1,9 @@
 cask "betterlgtm" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.6.0"
-  sha256 arm:   "ef189130956baf30dca85648b2466b44563c1bc3150c74da636a18b012b3cee4",
-         intel: "5da4bfecf549ca161055e9b4637a249a8950bb724d207564aa8b8aa5e4eedcda"
+  version "0.6.1"
+  sha256 arm:   "c2730a0fbebaeae1116c002fb06c6e8dca0d651f054375e038d066baf508b543",
+         intel: "ca8a62d9bf1b0d07bcbe0e2b849af8d3e6260311a26ed9cd1a7455614af705bf"
 
   url "https://github.com/drmas/betterlgtm/releases/download/v#{version}/BetterLGTM_#{version}_#{arch}.dmg"
   name "BetterLGTM"
